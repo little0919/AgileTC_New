@@ -1,0 +1,257 @@
+2024-09-29 11:24:58.779 [restartedMain][INFO ][org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)]:Starting CaseServerApplication on LiLiTaodeMacBook-Pro.local with PID 68462 (/Users/lilitao/IdeaProjects/AgileTC/case-server/target/classes started by lilitao in /Users/lilitao/IdeaProjects/AgileTC/case-server)
+2024-09-29 11:24:58.782 [restartedMain][INFO ][org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:652)]:The following profiles are active: dev
+2024-09-29 11:24:58.807 [restartedMain][INFO ][org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)]:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-29 11:24:59.401 [restartedMain][INFO ][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]:Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$6d51a2d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-29 11:24:59.418 [restartedMain][INFO ][org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping.afterPropertiesSet(AbstractAddressingEndpointMapping.java:236)]:Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-09-29 11:24:59.483 [restartedMain][INFO ][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)]:Init DruidDataSource
+2024-09-29 11:24:59.806 [restartedMain][INFO ][com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:1002)]:{dataSource-1} inited
+2024-09-29 11:25:00.176 [restartedMain][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90)]:Tomcat initialized with port(s): 8443 (http) 8094 (http)
+2024-09-29 11:25:00.186 [restartedMain][INFO ][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]:Initializing ProtocolHandler ["http-nio-8443"]
+2024-09-29 11:25:00.194 [restartedMain][INFO ][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]:Initializing ProtocolHandler ["http-nio-8094"]
+2024-09-29 11:25:00.201 [restartedMain][INFO ][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]:Starting service [Tomcat]
+2024-09-29 11:25:00.201 [restartedMain][INFO ][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]:Starting Servlet engine: [Apache Tomcat/9.0.24]
+2024-09-29 11:25:00.277 [restartedMain][INFO ][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]:Initializing Spring embedded WebApplicationContext
+2024-09-29 11:25:00.277 [restartedMain][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)]:Root WebApplicationContext: initialization completed in 1470 ms
+2024-09-29 11:25:00.331 [restartedMain][INFO ][com.xiaoju.framework.listener.IocCloseListener.contextInitialized(IocCloseListener.java:25)]:[监听器注册成功..]com.xiaoju.framework.listener.IocCloseListener
+2024-09-29 11:25:00.428 [restartedMain][INFO ][com.corundumstudio.socketio.SocketIOServer.startAsync(SocketIOServer.java:146)]:Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2024-09-29 11:25:05.541 [restartedMain][INFO ][com.xiaoju.framework.handler.SocketIOServiceImpl.start(SocketIOServiceImpl.java:214)]:socket server start.
+2024-09-29 11:25:05.541 [nioEventLoopGroup-2-1][INFO ][com.corundumstudio.socketio.SocketIOServer$1.operationComplete(SocketIOServer.java:171)]:SocketIO server started at port: 8095
+2024-09-29 11:25:05.653 [restartedMain][INFO ][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)]:Initializing ExecutorService 'applicationTaskExecutor'
+2024-09-29 11:25:05.717 [restartedMain][INFO ][org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:54)]:Adding welcome page: class path resource [web/dist/index.html]
+2024-09-29 11:25:05.753 [restartedMain][WARN ][org.thymeleaf.templatemode.TemplateMode.parse(TemplateMode.java:150)]:[THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2024-09-29 11:25:11.331 [restartedMain][INFO ][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:57)]:LiveReload server is running on port 35729
+2024-09-29 11:25:11.354 [restartedMain][INFO ][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]:Starting ProtocolHandler ["http-nio-8443"]
+2024-09-29 11:25:11.359 [restartedMain][INFO ][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]:Starting ProtocolHandler ["http-nio-8094"]
+2024-09-29 11:25:11.367 [restartedMain][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:202)]:Tomcat started on port(s): 8443 (http) 8094 (http) with context path ''
+2024-09-29 11:25:11.371 [restartedMain][INFO ][org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59)]:Started CaseServerApplication in 37.791 seconds (JVM running for 48.249)
+2024-09-29 11:25:11.396 [http-nio-8094-exec-1][INFO ][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-29 11:25:11.396 [http-nio-8094-exec-1][INFO ][org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524)]:Initializing Servlet 'dispatcherServlet'
+2024-09-29 11:25:11.404 [http-nio-8094-exec-1][INFO ][org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546)]:Completed initialization in 8 ms
+2024-09-29 11:25:19.636 [nioEventLoopGroup-3-1][INFO ][com.xiaoju.framework.handler.RoomEntity.<init>(RoomEntity.java:43)]:case content is: {"root":{"data":{"id":"bv8nxhi3c800","created":1562059643204,"text":"中心主题","priority":null},"children":[{"data":{"id":"d4at8ky7lyw0","created":1726804867981,"text":"kkk","resource":["执行步骤","前置条件"]},"children":[{"data":{"id":"d4ehddkq7w80","created":1727177630257,"text":"pppp"},"children":[]}]},{"data":{"id":"d4av3kwswyo0","created":1726810118295,"text":"委派"},"children":[]}]},"template":"default","theme":"fresh-blue","version":"1.4.43","base":13}
+2024-09-29 11:25:19.636 [nioEventLoopGroup-3-1][INFO ][com.xiaoju.framework.handler.RoomEntity.addClient(RoomEntity.java:50)]:add client, current user number:1, name: llt
+2024-09-29 11:25:19.636 [nioEventLoopGroup-3-1][INFO ][com.xiaoju.framework.handler.SocketIOServiceImpl.lambda$start$0(SocketIOServiceImpl.java:103)]:add case client room map size: 1
+2024-09-29 11:25:19.637 [pool-3-thread-1][INFO ][com.xiaoju.framework.handler.NotifyEgressTask.run(NotifyEgressTask.java:17)]:notify egress message: PushMessage(userName=null, message=llt)
+2024-09-29 11:25:19.637 [nioEventLoopGroup-3-1][INFO ][com.xiaoju.framework.handler.SocketIOServiceImpl.lambda$start$0(SocketIOServiceImpl.java:114)]:connected caseId: 2210, roomId: 2210
+2024-09-29 11:25:19.648 [nioEventLoopGroup-3-1][INFO ][com.xiaoju.framework.handler.RoomEntity.addClient(RoomEntity.java:50)]:add client, current user number:1, name: llt
+2024-09-29 11:25:19.648 [nioEventLoopGroup-3-1][INFO ][com.xiaoju.framework.handler.SocketIOServiceImpl.lambda$start$0(SocketIOServiceImpl.java:103)]:add case client room map size: 1
+2024-09-29 11:25:19.649 [nioEventLoopGroup-3-1][INFO ][com.xiaoju.framework.handler.SocketIOServiceImpl.lambda$start$0(SocketIOServiceImpl.java:114)]:connected caseId: 2210, roomId: 2210
+2024-09-29 11:25:19.649 [pool-3-thread-1][INFO ][com.xiaoju.framework.handler.NotifyEgressTask.run(NotifyEgressTask.java:17)]:notify egress message: PushMessage(userName=null, message=llt)
+2024-09-29 11:25:21.102 [nioEventLoopGroup-3-1][INFO ][com.xiaoju.framework.handler.RoomEntity.removeClient(RoomEntity.java:56)]:remove client, current user number:0
+2024-09-29 11:25:21.111 [nioEventLoopGroup-3-1][INFO ][com.xiaoju.framework.handler.RoomEntity.removeClient(RoomEntity.java:76)]:nioEventLoopGroup-3-1不落库.{"root":{"data":{"id":"bv8nxhi3c800","created":1562059643204,"text":"中心主题","priority":null},"children":[{"data":{"id":"d4at8ky7lyw0","created":1726804867981,"text":"kkk","resource":["执行步骤","前置条件"]},"children":[{"data":{"id":"d4ehddkq7w80","created":1727177630257,"text":"pppp"},"children":[]}]},{"data":{"id":"d4av3kwswyo0","created":1726810118295,"text":"委派"},"children":[]}]},"template":"default","theme":"fresh-blue","version":"1.4.43","base":13}
+2024-09-29 11:25:21.111 [nioEventLoopGroup-3-1][INFO ][com.xiaoju.framework.handler.SocketIOServiceImpl.lambda$start$1(SocketIOServiceImpl.java:156)]:remove case client room map size: 0
+2024-09-29 11:25:21.111 [pool-3-thread-1][INFO ][com.xiaoju.framework.handler.NotifyEgressTask.run(NotifyEgressTask.java:17)]:notify egress message: PushMessage(userName=null, message=)
+2024-09-29 11:25:31.584 [nioEventLoopGroup-3-2][INFO ][com.xiaoju.framework.handler.RoomEntity.<init>(RoomEntity.java:43)]:case content is: {"root":{"data":{"id":"bv8nxhi3c800","created":1562059643204,"text":"中心主题","priority":null},"children":[{"data":{"id":"d4at8ky7lyw0","created":1726804867981,"text":"kkk","resource":["执行步骤","前置条件"]},"children":[{"data":{"id":"d4ehddkq7w80","created":1727177630257,"text":"pppp"},"children":[]}]},{"data":{"id":"d4av3kwswyo0","created":1726810118295,"text":"委派"},"children":[]}]},"template":"default","theme":"fresh-blue","version":"1.4.43","base":13}
+2024-09-29 11:25:31.584 [nioEventLoopGroup-3-2][INFO ][com.xiaoju.framework.handler.RoomEntity.addClient(RoomEntity.java:50)]:add client, current user number:1, name: llt
+2024-09-29 11:25:31.584 [nioEventLoopGroup-3-2][INFO ][com.xiaoju.framework.handler.SocketIOServiceImpl.lambda$start$0(SocketIOServiceImpl.java:103)]:add case client room map size: 1
+2024-09-29 11:25:31.584 [nioEventLoopGroup-3-2][INFO ][com.xiaoju.framework.handler.SocketIOServiceImpl.lambda$start$0(SocketIOServiceImpl.java:114)]:connected caseId: 2210, roomId: 2210
+2024-09-29 11:25:31.584 [pool-3-thread-1][INFO ][com.xiaoju.framework.handler.NotifyEgressTask.run(NotifyEgressTask.java:17)]:notify egress message: PushMessage(userName=null, message=llt)
+2024-09-29 11:25:31.596 [nioEventLoopGroup-3-2][INFO ][com.xiaoju.framework.handler.RoomEntity.addClient(RoomEntity.java:50)]:add client, current user number:1, name: llt
+2024-09-29 11:25:31.596 [nioEventLoopGroup-3-2][INFO ][com.xiaoju.framework.handler.SocketIOServiceImpl.lambda$start$0(SocketIOServiceImpl.java:103)]:add case client room map size: 1
+2024-09-29 11:25:31.597 [nioEventLoopGroup-3-2][INFO ][com.xiaoju.framework.handler.SocketIOServiceImpl.lambda$start$0(SocketIOServiceImpl.java:114)]:connected caseId: 2210, roomId: 2210
+2024-09-29 11:25:31.597 [pool-3-thread-1][INFO ][com.xiaoju.framework.handler.NotifyEgressTask.run(NotifyEgressTask.java:17)]:notify egress message: PushMessage(userName=null, message=llt)
+2024-09-29 11:26:07.686 [Thread-10][INFO ][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)]:Shutting down ExecutorService 'applicationTaskExecutor'
+2024-09-29 11:26:09.797 [nioEventLoopGroup-3-2][INFO ][com.xiaoju.framework.handler.RoomEntity.removeClient(RoomEntity.java:56)]:remove client, current user number:0
+2024-09-29 11:26:09.809 [nioEventLoopGroup-3-2][INFO ][com.xiaoju.framework.handler.RoomEntity.removeClient(RoomEntity.java:76)]:nioEventLoopGroup-3-2不落库.{"root":{"data":{"id":"bv8nxhi3c800","created":1562059643204,"text":"中心主题","priority":null},"children":[{"data":{"id":"d4at8ky7lyw0","created":1726804867981,"text":"kkk","resource":["执行步骤","前置条件"]},"children":[{"data":{"id":"d4ehddkq7w80","created":1727177630257,"text":"pppp"},"children":[]}]},{"data":{"id":"d4av3kwswyo0","created":1726810118295,"text":"委派"},"children":[]}]},"template":"default","theme":"fresh-blue","version":"1.4.43","base":13}
+2024-09-29 11:26:09.809 [nioEventLoopGroup-3-2][INFO ][com.xiaoju.framework.handler.SocketIOServiceImpl.lambda$start$1(SocketIOServiceImpl.java:156)]:remove case client room map size: 0
+2024-09-29 11:26:09.810 [pool-3-thread-1][INFO ][com.xiaoju.framework.handler.NotifyEgressTask.run(NotifyEgressTask.java:17)]:notify egress message: PushMessage(userName=null, message=)
+2024-09-29 11:26:12.024 [Thread-10][INFO ][com.corundumstudio.socketio.SocketIOServer.stop(SocketIOServer.java:221)]:SocketIO server stopped
+2024-09-29 11:26:12.025 [Thread-10][INFO ][com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1885)]:{dataSource-1} closing ...
+2024-09-29 11:26:12.029 [Thread-10][INFO ][com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1955)]:{dataSource-1} closed
+2024-09-29 11:26:14.437 [Thread-10][INFO ][com.xiaoju.framework.listener.IocCloseListener.contextDestroyed(IocCloseListener.java:30)]:[监听到容器关闭..]com.xiaoju.framework.listener.IocCloseListener
+2024-09-29 11:31:04.638 [restartedMain][INFO ][org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)]:Starting CaseServerApplication on LiLiTaodeMacBook-Pro.local with PID 69903 (/Users/lilitao/IdeaProjects/AgileTC/case-server/target/classes started by lilitao in /Users/lilitao/IdeaProjects/AgileTC/case-server)
+2024-09-29 11:31:04.641 [restartedMain][INFO ][org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:652)]:The following profiles are active: dev
+2024-09-29 11:31:04.663 [restartedMain][INFO ][org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)]:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-29 11:31:05.197 [restartedMain][INFO ][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]:Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a384a538] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-29 11:31:05.227 [restartedMain][INFO ][org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping.afterPropertiesSet(AbstractAddressingEndpointMapping.java:236)]:Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-09-29 11:31:05.269 [restartedMain][INFO ][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)]:Init DruidDataSource
+2024-09-29 11:31:05.523 [restartedMain][INFO ][com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:1002)]:{dataSource-1} inited
+2024-09-29 11:31:05.853 [restartedMain][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90)]:Tomcat initialized with port(s): 8443 (http) 8094 (http)
+2024-09-29 11:31:05.863 [restartedMain][INFO ][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]:Initializing ProtocolHandler ["http-nio-8443"]
+2024-09-29 11:31:05.869 [restartedMain][INFO ][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]:Initializing ProtocolHandler ["http-nio-8094"]
+2024-09-29 11:31:05.877 [restartedMain][INFO ][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]:Starting service [Tomcat]
+2024-09-29 11:31:05.877 [restartedMain][INFO ][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]:Starting Servlet engine: [Apache Tomcat/9.0.24]
+2024-09-29 11:31:05.954 [restartedMain][INFO ][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]:Initializing Spring embedded WebApplicationContext
+2024-09-29 11:31:05.954 [restartedMain][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)]:Root WebApplicationContext: initialization completed in 1291 ms
+2024-09-29 11:31:06.008 [restartedMain][INFO ][com.xiaoju.framework.listener.IocCloseListener.contextInitialized(IocCloseListener.java:25)]:[监听器注册成功..]com.xiaoju.framework.listener.IocCloseListener
+2024-09-29 11:31:06.090 [restartedMain][INFO ][com.corundumstudio.socketio.SocketIOServer.startAsync(SocketIOServer.java:146)]:Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2024-09-29 11:31:11.208 [restartedMain][INFO ][com.xiaoju.framework.handler.SocketIOServiceImpl.start(SocketIOServiceImpl.java:214)]:socket server start.
+2024-09-29 11:31:11.208 [nioEventLoopGroup-2-1][INFO ][com.corundumstudio.socketio.SocketIOServer$1.operationComplete(SocketIOServer.java:171)]:SocketIO server started at port: 8095
+2024-09-29 11:31:11.299 [restartedMain][INFO ][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)]:Initializing ExecutorService 'applicationTaskExecutor'
+2024-09-29 11:31:11.355 [restartedMain][INFO ][org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:54)]:Adding welcome page: class path resource [web/dist/index.html]
+2024-09-29 11:31:11.387 [restartedMain][WARN ][org.thymeleaf.templatemode.TemplateMode.parse(TemplateMode.java:150)]:[THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2024-09-29 11:31:13.613 [restartedMain][INFO ][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:57)]:LiveReload server is running on port 35729
+2024-09-29 11:31:13.628 [restartedMain][INFO ][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]:Starting ProtocolHandler ["http-nio-8443"]
+2024-09-29 11:31:13.632 [restartedMain][INFO ][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]:Starting ProtocolHandler ["http-nio-8094"]
+2024-09-29 11:31:13.635 [restartedMain][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:202)]:Tomcat started on port(s): 8443 (http) 8094 (http) with context path ''
+2024-09-29 11:31:13.637 [restartedMain][INFO ][org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59)]:Started CaseServerApplication in 34.194 seconds (JVM running for 44.744)
+2024-09-29 11:32:47.462 [Thread-7][INFO ][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)]:Shutting down ExecutorService 'applicationTaskExecutor'
+2024-09-29 11:32:51.824 [Thread-7][INFO ][com.corundumstudio.socketio.SocketIOServer.stop(SocketIOServer.java:221)]:SocketIO server stopped
+2024-09-29 11:32:51.826 [Thread-7][INFO ][com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1885)]:{dataSource-1} closing ...
+2024-09-29 11:32:51.833 [Thread-7][INFO ][com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1955)]:{dataSource-1} closed
+2024-09-29 11:32:54.312 [Thread-7][INFO ][com.xiaoju.framework.listener.IocCloseListener.contextDestroyed(IocCloseListener.java:30)]:[监听到容器关闭..]com.xiaoju.framework.listener.IocCloseListener
+2024-09-29 11:46:19.951 [restartedMain][INFO ][org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)]:Starting CaseServerApplication on LiLiTaodeMacBook-Pro.local with PID 69903 (/Users/lilitao/IdeaProjects/AgileTC/case-server/target/classes started by lilitao in /Users/lilitao/IdeaProjects/AgileTC/case-server)
+2024-09-29 11:46:19.951 [restartedMain][INFO ][org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:652)]:The following profiles are active: dev
+2024-09-29 11:46:20.113 [restartedMain][WARN ][org.mybatis.logging.Logger.warn(Logger.java:44)]:No MyBatis mapper was found in '[com.xiaoju.framework]' package. Please check your configuration.
+2024-09-29 11:46:20.124 [restartedMain][INFO ][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]:Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a384a538] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-29 11:46:20.128 [restartedMain][INFO ][org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping.afterPropertiesSet(AbstractAddressingEndpointMapping.java:236)]:Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-09-29 11:46:20.155 [restartedMain][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90)]:Tomcat initialized with port(s): 8443 (http)
+2024-09-29 11:46:20.155 [restartedMain][INFO ][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]:Initializing ProtocolHandler ["http-nio-8443"]
+2024-09-29 11:46:20.156 [restartedMain][INFO ][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]:Starting service [Tomcat]
+2024-09-29 11:46:20.156 [restartedMain][INFO ][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]:Starting Servlet engine: [Apache Tomcat/9.0.24]
+2024-09-29 11:46:20.163 [restartedMain][INFO ][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]:Initializing Spring embedded WebApplicationContext
+2024-09-29 11:46:20.163 [restartedMain][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)]:Root WebApplicationContext: initialization completed in 208 ms
+2024-09-29 11:46:20.203 [restartedMain][INFO ][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)]:Initializing ExecutorService 'applicationTaskExecutor'
+2024-09-29 11:46:20.208 [restartedMain][INFO ][org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:54)]:Adding welcome page: class path resource [web/dist/index.html]
+2024-09-29 11:46:20.218 [restartedMain][WARN ][org.thymeleaf.templatemode.TemplateMode.parse(TemplateMode.java:150)]:[THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2024-09-29 11:46:20.219 [restartedMain][INFO ][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)]:Init DruidDataSource
+2024-09-29 11:46:20.261 [restartedMain][INFO ][com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:1002)]:{dataSource-2} inited
+2024-09-29 11:46:21.942 [restartedMain][INFO ][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:57)]:LiveReload server is running on port 35729
+2024-09-29 11:46:21.948 [restartedMain][INFO ][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]:Starting ProtocolHandler ["http-nio-8443"]
+2024-09-29 11:46:21.950 [restartedMain][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:202)]:Tomcat started on port(s): 8443 (http) with context path ''
+2024-09-29 11:46:21.950 [restartedMain][INFO ][org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59)]:Started CaseServerApplication in 27.117 seconds (JVM running for 953.052)
+2024-09-29 11:46:21.953 [restartedMain][INFO ][org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent(ConditionEvaluationDeltaLoggingListener.java:58)]:Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   MybatisAutoConfiguration.MapperScannerRegistrarNotFoundConfiguration matched:
+      - @ConditionalOnMissingBean (types: org.mybatis.spring.mapper.MapperFactoryBean,org.mybatis.spring.mapper.MapperScannerConfigurer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ServletWebServerFactoryConfiguration.EmbeddedTomcat matched:
+      - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol' (OnClassCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.server.ServletWebServerFactory; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2024-09-29 11:47:12.764 [Thread-11][INFO ][com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1885)]:{dataSource-2} closing ...
+2024-09-29 11:47:12.767 [Thread-11][INFO ][com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1955)]:{dataSource-2} closed
+2024-09-29 11:47:12.767 [Thread-11][INFO ][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)]:Shutting down ExecutorService 'applicationTaskExecutor'
+2024-09-29 11:47:48.427 [restartedMain][INFO ][org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)]:Starting CaseServerApplication on LiLiTaodeMacBook-Pro.local with PID 72411 (/Users/lilitao/IdeaProjects/AgileTC/case-server/target/classes started by lilitao in /Users/lilitao/IdeaProjects/AgileTC/case-server)
+2024-09-29 11:47:48.430 [restartedMain][INFO ][org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:652)]:The following profiles are active: dev
+2024-09-29 11:47:48.465 [restartedMain][INFO ][org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)]:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-29 11:47:49.186 [restartedMain][INFO ][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]:Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$519ec740] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-29 11:47:49.209 [restartedMain][INFO ][org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping.afterPropertiesSet(AbstractAddressingEndpointMapping.java:236)]:Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-09-29 11:47:49.292 [restartedMain][INFO ][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)]:Init DruidDataSource
+2024-09-29 11:47:49.569 [restartedMain][INFO ][com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:1002)]:{dataSource-1} inited
+2024-09-29 11:47:49.932 [restartedMain][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90)]:Tomcat initialized with port(s): 8443 (http) 8094 (http)
+2024-09-29 11:47:49.950 [restartedMain][INFO ][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]:Initializing ProtocolHandler ["http-nio-8443"]
+2024-09-29 11:47:49.961 [restartedMain][INFO ][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]:Initializing ProtocolHandler ["http-nio-8094"]
+2024-09-29 11:47:49.968 [restartedMain][ERROR][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:175)]:Failed to initialize component [Connector[HTTP/1.1-8094]]
+org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1059) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:173) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:105) ~[spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:86) ~[spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:416) ~[spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:180) ~[spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180) ~[spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153) ~[spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744) ~[spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391) ~[spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) ~[spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204) ~[spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at com.xiaoju.framework.CaseServerApplication.main(CaseServerApplication.java:16) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_381]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_381]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_381]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_381]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_381]
+	at sun.nio.ch.Net.bind(Net.java:438) ~[?:1.8.0_381]
+	at sun.nio.ch.Net.bind(Net.java:430) ~[?:1.8.0_381]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225) ~[?:1.8.0_381]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[?:1.8.0_381]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.tomcat.util.net.2024-09-29 11:49:02.756 [http-nio-8094-exec-1][INFO ][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-29 11:49:02.756 [http-nio-8094-exec-1][INFO ][org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524)]:Initializing Servlet 'dispatcherServlet'
+2024-09-29 11:49:02.762 [http-nio-8094-exec-1][INFO ][org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546)]:Completed initialization in 6 ms
+2024-09-29 11:49:16.057 [nioEventLoopGroup-5-1][INFO ][com.xiaoju.framework.handler.RoomEntity.<init>(RoomEntity.java:43)]:case content is: {"root":{"data":{"id":"bv8nxhi3c800","created":1562059643204,"text":"中心主题","priority":null},"children":[{"data":{"id":"d4at8ky7lyw0","created":1726804867981,"text":"kkk","resource":["执行步骤","前置条件"]},"children":[{"data":{"id":"d4ehddkq7w80","created":1727177630257,"text":"pppp"},"children":[]}]},{"data":{"id":"d4av3kwswyo0","created":1726810118295,"text":"委派"},"children":[]}]},"template":"default","theme":"fresh-blue","version":"1.4.43","base":13}
+2024-09-29 11:49:16.057 [nioEventLoopGroup-5-1][INFO ][com.xiaoju.framework.handler.RoomEntity.addClient(RoomEntity.java:50)]:add client, current user number:1, name: llt
+2024-09-29 11:49:16.057 [nioEventLoopGroup-5-1][INFO ][com.xiaoju.framework.handler.SocketIOServiceImpl.lambda$start$0(SocketIOServiceImpl.java:103)]:add case client room map size: 1
+2024-09-29 11:49:16.058 [pool-6-thread-1][INFO ][com.xiaoju.framework.handler.NotifyEgressTask.run(NotifyEgressTask.java:17)]:notify egress message: PushMessage(userName=null, message=llt)
+2024-09-29 11:49:16.058 [nioEventLoopGroup-5-1][INFO ][com.xiaoju.framework.handler.SocketIOServiceImpl.lambda$start$0(SocketIOServiceImpl.java:114)]:connected caseId: 2210, roomId: 2210
+2024-09-29 11:49:16.064 [nioEventLoopGroup-5-1][INFO ][com.xiaoju.framework.handler.RoomEntity.addClient(RoomEntity.java:50)]:add client, current user number:1, name: llt
+2024-09-29 11:49:16.064 [nioEventLoopGroup-5-1][INFO ][com.xiaoju.framework.handler.SocketIOServiceImpl.lambda$start$0(SocketIOServiceImpl.java:103)]:add case client room map size: 1
+2024-09-29 11:49:16.064 [nioEventLoopGroup-5-1][INFO ][com.xiaoju.framework.handler.SocketIOServiceImpl.lambda$start$0(SocketIOServiceImpl.java:114)]:connected caseId: 2210, roomId: 2210
+2024-09-29 11:49:16.065 [pool-6-thread-1][INFO ][com.xiaoju.framework.handler.NotifyEgressTask.run(NotifyEgressTask.java:17)]:notify egress message: PushMessage(userName=null, message=llt)
+2024-09-29 11:53:16.066 [pool-5-thread-1][INFO ][com.xiaoju.framework.handler.EditIngressTask.run(EditIngressTask.java:29)]:[[{"op":"add","path":"/root/children/1/children/0","value":{"data":{"id":"d4igpgn00540","created":1727581996011,"text":"分支主题"},"children":[]}}]]
+2024-09-29 11:53:16.071 [pool-5-thread-1][WARN ][com.xiaoju.framework.handler.EditIngressTask.run(EditIngressTask.java:60)]:version of case in memory is smaller than client. version is: 13, client version: 13
+2024-09-29 11:53:20.404 [pool-5-thread-2][INFO ][com.xiaoju.framework.handler.EditIngressTask.run(EditIngressTask.java:29)]:[[{"op":"replace","path":"/root/children/1/children/0/data/text","value":"团战"}]]
+2024-09-29 11:53:20.405 [pool-5-thread-2][WARN ][com.xiaoju.framework.handler.EditIngressTask.run(EditIngressTask.java:60)]:version of case in memory is smaller than client. version is: 14, client version: 14
+2024-09-29 11:53:32.603 [pool-5-thread-1][INFO ][com.xiaoju.framework.handler.EditIngressTask.run(EditIngressTask.java:29)]:[[{"op":"add","path":"/root/children/1/children/1","value":{"data":{"id":"d4igpo96moo0","created":1727582012590,"text":"分支主题"},"children":[]}}]]
+2024-09-29 11:53:32.603 [pool-5-thread-1][WARN ][com.xiaoju.framework.handler.EditIngressTask.run(EditIngressTask.java:60)]:version of case in memory is smaller than client. version is: 15, client version: 15
+2024-09-29 11:53:37.023 [pool-5-thread-2][INFO ][com.xiaoju.framework.handler.EditIngressTask.run(EditIngressTask.java:29)]:[[{"op":"replace","path":"/root/children/1/children/1/data/text","value":"66"}]]
+2024-09-29 11:53:37.023 [pool-5-thread-2][WARN ][com.xiaoju.framework.handler.EditIngressTask.run(EditIngressTask.java:60)]:version of case in memory is smaller than client. version is: 16, client version: 16
+2024-09-29 11:53:44.980 [pool-5-thread-1][INFO ][com.xiaoju.framework.handler.EditIngressTask.run(EditIngressTask.java:29)]:[[{"op":"add","path":"/root/children/1/children/0/children/0","value":{"data":{"id":"d4igptxvrnc0","created":1727582024967,"text":"分支主题"},"children":[]}}]]
+2024-09-29 11:53:44.980 [pool-5-thread-1][WARN ][com.xiaoju.framework.handler.EditIngressTask.run(EditIngressTask.java:60)]:version of case in memory is smaller than client. version is: 17, client version: 17
+2024-09-29 11:53:47.324 [pool-5-thread-2][INFO ][com.xiaoju.framework.handler.EditIngressTask.run(EditIngressTask.java:29)]:[[{"op":"replace","path":"/root/children/1/children/0/children/0/data/text","value":"123"}]]
+2024-09-29 11:53:47.325 [pool-5-thread-2][WARN ][com.xiaoju.framework.handler.EditIngressTask.run(EditIngressTask.java:60)]:version of case in memory is smaller than client. version is: 18, client version: 18
+2024-09-29 12:05:45.579 [Thread-20][INFO ][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)]:Shutting down ExecutorService 'applicationTaskExecutor'
+2024-09-29 12:05:47.691 [nioEventLoopGroup-5-1][INFO ][com.xiaoju.framework.handler.RoomEntity.removeClient(RoomEntity.java:56)]:remove client, current user number:0
+2024-09-29 12:05:47.769 [nioEventLoopGroup-5-1][INFO ][com.xiaoju.framework.handler.SocketIOServiceImpl.lambda$start$1(SocketIOServiceImpl.java:156)]:remove case client room map size: 0
+2024-09-29 12:05:47.769 [pool-6-thread-1][INFO ][com.xiaoju.framework.handler.NotifyEgressTask.run(NotifyEgressTask.java:17)]:notify egress message: PushMessage(userName=null, message=)
+2024-09-29 12:05:49.916 [Thread-20][INFO ][com.corundumstudio.socketio.SocketIOServer.stop(SocketIOServer.java:221)]:SocketIO server stopped
+2024-09-29 12:05:49.916 [Thread-20][INFO ][com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1885)]:{dataSource-3} closing ...
+2024-09-29 12:05:49.918 [Thread-20][INFO ][com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1955)]:{dataSource-3} closed
+2024-09-29 12:05:52.355 [Thread-20][INFO ][com.xiaoju.framework.listener.IocCloseListener.contextDestroyed(IocCloseListener.java:30)]:[监听到容器关闭..]com.xiaoju.framework.listener.IocCloseListener
+n.java:1204) ~[spring-boot-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at com.xiaoju.framework.CaseServerApplication.main(CaseServerApplication.java:16) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_381]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_381]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_381]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_381]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_381]
+	at sun.nio.ch.Net.bind(Net.java:438) ~[?:1.8.0_381]
+	at sun.nio.ch.Net.bind(Net.java:430) ~[?:1.8.0_381]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225) ~[?:1.8.0_381]
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:132) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:551) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1345) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:503) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:488) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:984) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:247) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:355) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:416) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:515) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_381]
